@@ -1,0 +1,32 @@
+System.out.println("GAME CREATION HELP\n
+\n
+The games rely on text input. In order to create a successful game, its \n
+important to plan ahead and create a game-plan.\n
+It's up to you how specific or helpful you want your game to be.\n
+\n
+Each game contains STAGES and there can be as many as you like.\n
+Each STAGE contains INPUTS; each INPUT elicits a RESPONSE from the console.\n
+For example, if the INPUT you want is "look around", and the RESPONSE is "You \n
+see you are in a large room.", gameplay could look like this:\n
+\n
+ > look around\n
+ You see you are in a large room.\n
+\n
+ > _\n
+\n
+Each STAGE can have as many inputs (and their associated responses) as you'd \n
+like.\n
+\n
+Every STAGE also requires a:
+PROMPT which tells the player to enter a command.\n
+       (Will be displayed before every user input field.)\n
+DEFAULT which tells the player that the input they entered does not have an\n      associated response.\n
+HELP which is meant to help the player interact with and use the program.\n
+     (Will be displayed when the user enters 'help'.)\n
+HINT which is meant to offer advice about the in-game content. (Will be\n         displayed when the user enters 'hint'.)\n
+QUIT which displays when the user chooses to quit (enters 'quit').\n
+\n
+Once created, the game will ask for a filename to save under.\n
+The default path is the local path (where the program is located.) and\n
+the automatic file extension is '.dat'.\n
+After that, you can share the program and the game you created with anyone!");

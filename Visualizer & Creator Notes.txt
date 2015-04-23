@@ -1,0 +1,32 @@
+Each stage:
+System.out.println("Enter a prompt for the player to respond to, to begin this stage:");
+System.out.println("Enter a default that will let the player know the choice they made was invalid:");
+System.out.println("Enter a hint for this stage:");
+System.out.println("Enter a message that will help the player use the game:");
+System.out.println("Enter a quit message:");
+
+Each choice:
+System.out.println("Enter the input that the player must use to get a specific response:");
+System.out.println("Enter the response to the input you entered above:");
+System.out.print("Will this input cause the player to move on to the next stage? (y/n) ");
+
+126
+ 54
+249
+
+----------------
+Stage 1
+--------
+PROMPT:  ""
+DEFAULT: ""
+HINT:    ""
+HELP:    ""
+QUIT:    ""
+--------
+INPUT: ""
+RESPONSE: ""
+PROGRESS KEY: t/f
+
+Total responses this stage: n
+----------------
+Total stages: 
